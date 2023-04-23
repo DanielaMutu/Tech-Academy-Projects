@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<html>
+<script src="Basic_JavaScript_1.js"></script>
+<body>
+<p><b><font color="darkgreen" face="WildWest" size="6"> 
+There are over 400,000 flowering plant species across the world, producing a variety of types of flowers in a range of colors and shades and in all different shapes and sizes.</font></b>
+
+
+<i><font color="#008000" face="WildWest" size="4"><br>
+What are the 20 most popular flowers?</font></i>
+<img sc="Flower_poster_2.jpg" alt="Flower Image">
+
+<u><font color="#32CD32"face="WildWest" size="2"><br>
+Twenty of the most popular flowers include:
+
+Calla Lilies
+Carnations
+Chrysanthemums
+Daisies
+Daffodils
+Freesia
+Gardenias
+Gerbera Daisies
+Hyacinths
+Irises
+Jasmine
+Lilacs
+Liles
+Magnolias
+Orchids
+Peonies
+Roses
+Snapdragons
+Sunflowers
+Tulips</font></u>
+</body>
+</html>

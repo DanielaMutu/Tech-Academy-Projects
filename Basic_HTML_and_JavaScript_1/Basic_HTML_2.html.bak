@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title><h1>These days, orchids are among the most popular houseplants.</h1></title>
+<br>
+<font color=#800080>
+<h3>Orchid plants are the perfect gift for any occasion - but they are particularly popular presents for Mother’s Day and birthdays. 
+Each colour represents a different meaning - purple, for example is for someone you admire - it shows appreciation and respect.</h3></font>
+<meta charset="utf-8"
+</head>
+<body>
+<font color=#7CFC00><button onclick="My_first_Function()">Click me!</button></font>
+<p id="demo"></p>
+<script src="Basic_JavaScript_2.js"></script>
+ </body>
+ 
+</html>
