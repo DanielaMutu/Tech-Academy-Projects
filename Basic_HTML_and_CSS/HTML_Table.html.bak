@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<body>
+<center>
+<h1 style="color:purple";> Types of flowers </h1>
+</center>
+<link rel="stylesheet" type="text/css" href="CSS_Table.css">
+<table style="width: 100%; color:red;" >
+<tr>
+<th>Nr.</th>
+<th>Flower name</th>
+<th>Country</th>
+<th>Details</th>
+</tr>
+
+<tr>
+<td>1.</td>
+<td>Golden Wattle</td>
+<td>Australia</td>
+<td>This fragrant shrub with its tiny explosions of yellow flowers is native to Australia’s Capital 
+territory and cemented in the history as the national flower of Australia.</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Iris</td>
+<td>France</td>
+<td>The Iris, also called fleur-de-lis, has been officially representing the country of 
+France since the 12th century as both the country’s insignia and national emblem.</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Lily of the Valley</td>
+<td>Finland and Yugoslavia</td>
+<td>This delicate plant has tiny bell-shaped flowers that smell extremely sweet, making it a favourite 
+in both perfumes and bridal bouquets. </td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Tulips</td>
+<td>Holland, Hungary and Turkey</td>
+<td>Despite popular belief, the perky tulip comes from Hungary where it travelled along with the Ottoman Empire 
+to Turkey before finally making its way to Holland. </td>
+</tr>
+<tr>
+<td>5.</td>
+<td>Jasmine</td>
+<td>Pakistan and Syria</td>
+<td>It’s simplicity and pure white colour symbolises purity and peace. </td>
+</tr>
+</table>
+</body>
+</html>
+ 

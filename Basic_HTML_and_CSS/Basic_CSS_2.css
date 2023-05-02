@@ -1,0 +1,15 @@
+
+p{ 
+font-style: bold;
+text-align: center;
+color:red;
+}
+body {
+	font-style: italic;
+text-align: center;
+color:black;
+}
+h3 {
+	text-shadow: 2px 2px 8px #FF0000;
+}
+ 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<title> Basic_HTML_4.html </title>
+<meta  charset ="utf-8">
+
+<body>
+
+<style>
+.font_1 {
+background-color:  black;
+color: yellow;
+font-size: large;}
+.font_2 {
+background-color: darkblue;
+color: white;
+font-size: medium;}
+</style>
+
+<h2 class="font_1"> This h2 element is styled per class attribute font_1</h2>
+<h3 class="font_2"> This h3 element is styled per class attribute font_2</h3>
+<h4 class="font_1"> Even thought this is an h4 element, it is styled the same as the h2 element because we pointed to the class attribute font_1</h4>
+<style>
+.My_Style {
+background-color : red;  
+color: white;
+text-decoration: underline;
+font-weight: bold;
+font-size: small;
+}
+</style>
+<h1 class="My_Style"> Sunflowers are one of the most popular flower types and are best known for their dazzling yellow color and large size. 
+They generally symbolize adoration, loyalty, and longevity in the language of flowers.</h1>
+
+</body>
+</html>

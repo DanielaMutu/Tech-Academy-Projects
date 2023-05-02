@@ -1,0 +1,15 @@
+table {
+border:2px solid silver;
+}
+td:hover{
+background-color: LemonChiffon;
+color: black;
+}
+tr, th {
+background-color:MidnightBlue;
+color:red;
+}
+tr,td {
+background-color:DarkBlue;
+color:Snow;
+}
