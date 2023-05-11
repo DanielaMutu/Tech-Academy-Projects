@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta  charset ="utf-8">
+<title> Recommendation to visit  </title>
+</head>
+<style>
+body {
+     background-image: url('Transfagarasan route.jpg');
+	 }
+
+</style>
+</head>	 
+
+<body>
+<font color="#7FFF00"> 
+<h1>
+<p> Visit amaizing places in Romania </p>
+</h1>
+<!--navigation-->
+<a href="#Feedback" id="link"><font color="#7FFF00"> <h4>Feedback</h4></a>
+<h2>It is the period for traveling and I recommend you to travel Transfăgărasan route in Romania.</h2>
+<h3>The wonderful curves of Transfăgărășan were built during 4 years between 1970-1974. <br>
+This route takes place on the Făgărașului Mountains and unites Muntenia with Transylvania. <br>
+It is a wild road, where you breathe a sweet and cool mountain air, where the steep mountainous <br>
+ form blends harmoniously with the road,and landscapes feed your soul and remain in your memory.</h3>
+ <!--iframe video-->
+ <iframe src="Monkey in nature.mp4" width="600" height="330"></iframe> <br>
+ <br>
+ 
+<!-- Style css file-->
+<link rel="stylesheet" type="text/css" href="One page website style.css">
+
+<!--Feedback section-->
+<div class="row">
+<div id="Feedback">
+</div>
+<h4>Feedback</h4>
+ <h2> Please write your feedback below: <h2>
+ <h4>
+ <form action=""method="get">
+<label class="radio-inline">First name: <input type="text" name="First_Name"><br>
+<label class="radio-inline">Last name:<input type="text" name="Last_Name"><br>
+<label class="col-md-10">Details:<br>
+       <textarea id="message" required=""placeholder="Write your message here" cols="55" row="10" ></textarea></label>
+	   
+<input type="submit" value="Submit"></h4>
+</div>
+</form>
+ 
+ 
+ <!-- My details/Authors page-->
+ <footer>
+ <p>Author:Daniela Mutu <br>
+ <p>danielamutu19@yahoo.com</p>
+ </footer>
+ 
+ </font>
+ </html>
