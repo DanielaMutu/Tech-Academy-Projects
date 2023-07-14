@@ -22,7 +22,7 @@ h1:hover {
 
 /* Styling for portfolio title text */
 .white-text {
-    color: #fff; /* This is used to change the color of the portfolio title text */
+    color: #ffffff; /* This is used to change the color of the portfolio title text */
 }
 
 /* Paragraph elements */
@@ -37,7 +37,7 @@ p {
 
 /* Paragraph element hover effect */
 p:hover {
-    transition: transform 1s; /* This makes the transform effect last 1 second */
+    transition: transform 2s; /* This makes the transform effect last 1 second */
 	transform: scale(1.01); /* This makes the paragraphs increase slightly in size when hovered over */
 }
 
@@ -54,12 +54,12 @@ p:hover {
 
 /* Anchor elements */
 a {
-    color: blue; /* This ensures all links are blue */
+    color: red; /* This ensures all links are blue */
 }
 
 /* Quotation elements */
 q {
-    font-style: italic; /* This makes the quote italicized */
+    font-style: Semi-Bold; /* This makes the quote italicized */
 }
 
 /* Image elements */
@@ -99,7 +99,7 @@ footer {
 /***** NAVBAR STYLING *****/
 .Navbar {
     overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-    background-color: black; /* This colors the navbar black */
+    background-color: rgb(0, 0, 0); /* This colors the navbar black */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
@@ -118,7 +118,7 @@ footer {
 .Navbar a {
     float: left; /* This specifies that the text floats on the left on the navbar */
     display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
-    color: white; /* This is the font color for text on our navbar */
+    color: rgb(255, 255, 255); /* This is the font color for text on our navbar */
     padding: 14px 16px; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
     font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
@@ -145,14 +145,14 @@ footer {
 
 /* Navbar hover effects */
 .Navbar a:hover {
-    background-color: #f4f4f4; /* Defines the background color that will display when you hover over the link */
-    color: black; /* This defines the font color that will display when navbar a elements are hovered over */
+    background-color: #FFFF00; /* Defines the background color that will display when you hover over the link */
+    color: rgb(0, 0, 0); /* This defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* This makes the text on the navbar bold when hovered over */
 }
 
 /* Navbar home button */
 .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: darkgray;
+    background-color: #FFFF00;
 }
 /***** END OF NAVBAR STYLING *****/
 
@@ -218,7 +218,7 @@ footer {
     padding: 10px;
     padding-top: 1.9%;
     height: 400px;
-    background-color: #4d4d4d;
+    background-color: #ffa500;
 }
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form  while keeping the rest of the formatting from Column_1 or Column_2 */
