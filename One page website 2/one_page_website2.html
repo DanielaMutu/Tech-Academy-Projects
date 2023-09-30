@@ -1,0 +1,88 @@
+<!-- Images used to open the lightbox -->
+<!DOCTYPE html>
+<html lang="en">
+<meta  charset ="utf-8">
+<head>
+<title> Recommendation to visit </title>
+<link rel="stylesheet" href="css/one_page_website.css">
+</head>
+<body>
+      <!--navigation-->
+      <ul>
+        <a href="#home" id="link"><li>HOME</li></a>
+        <a href="#images" id="link"><li>IMAGES</li></a>
+        <a href="#videos" id="link"><li>VIDEOS</li></a>
+        <a href="#contact" id="link"><li>INFORMATION</li></a>
+        </ul>
+        <!--END navigation-->
+    
+    <!--HOME-->
+    <div id="home">
+        <h1>Visit amaizing places in Romania </h1>
+        <p><b> It is the period for traveling and I recommend you to travel Transfăgărasan route in Romania. </b></p>
+        <p>The wonderful curves of Transfăgărășan were built during 4 years between 1970-1974. <br>
+            This route takes place on the Făgărașului Mountains and unites Muntenia with Transylvania. <br></p>
+        <p>It is a wild road, where you breathe a sweet and cool mountain air, where the steep mountainous <br>
+             form blends harmoniously with the road,and landscapes feed your soul and remain in your memory.</p>
+    
+             <hr>
+    </div>
+    <!--END HOME-->
+<div class="row">
+    <div class="column">
+      <img src="Images/Transfăgărășan1.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="Images/Transfăgărășan2.jpeg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="Images/Transfăgărășan3.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="Images/Transfăgărășan1_wide.jpeg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="Images/Transfăgărășan2_wide.jpeg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="Images/Transfăgărășan3_wide.jpeg" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src="Images/Transfăgărășan1.jpeg" onclick="currentSlide(1)" alt="Nature">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="Images/Transfăgărășan2.jpeg" onclick="currentSlide(2)" alt="Mountains">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="Images/Transfăgărășan3.jpeg" onclick="currentSlide(3)" alt="Lake">
+      </div>
+    </div>
+  </div>
+
+  </body>
+  </html>
